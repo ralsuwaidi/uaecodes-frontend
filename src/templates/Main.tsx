@@ -10,7 +10,7 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="w-full px-1 font-ubuntu antialiased">
+  <div className="w-full  font-ubuntu antialiased">
     {props.meta}
 
     <div className="mx-auto max-w-screen-lg">

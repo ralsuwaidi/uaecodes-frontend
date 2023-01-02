@@ -1,4 +1,4 @@
-import { BrutalBtn } from '@/layouts/Common/Brutal';
+import { BrutalBtn, BrutalPill } from '@/layouts/Common/Brutal';
 import { Hero } from '@/layouts/Home/Hero';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -16,6 +16,7 @@ const Index = () => {
       <Hero />
 
       <BrutalBtn color="red" text="LEARN MORE" />
+      <BrutalPill text="hello" />
 
       <h1 className="text-2xl font-bold">
         Boilerplate code for your Nextjs project with Tailwind CSS
