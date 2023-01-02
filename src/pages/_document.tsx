@@ -8,7 +8,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          <script
+            src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"
+            defer
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

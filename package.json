@@ -22,6 +22,8 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "flowbite": "^1.5.5",
+    "flowbite-react": "^0.3.7",
     "next": "^13.1.0",
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.43",

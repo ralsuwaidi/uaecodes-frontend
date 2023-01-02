@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{ts,tsx}',
+    './node_modules/flowbite-react/**/*.js',
+  ],
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -38,8 +42,29 @@ module.exports = {
           800: '#2c5282',
           900: '#2a4365',
         },
+        primary: {
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
+        },
+        'neon-red': '#EA4A41',
+        'neon-green': '#86FFB6',
+        'neon-purple': '#7331FF',
+        'neon-gray': '#F2F5F7',
+      },
+      fontFamily: {
+        ubuntu: ['Ubuntu', 'sans-serif'],
+        'ubuntu-mono': ['Ubuntu Mono', ' monospace'],
       },
     },
   },
-  plugins: [],
+  // eslint-disable-next-line global-require
+  plugins: [require('flowbite/plugin')],
 };
