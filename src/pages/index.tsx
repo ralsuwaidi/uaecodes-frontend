@@ -15,7 +15,7 @@ const Index = () => {
     >
       <Hero />
 
-      <BrutalBtn color="red" text="LEARN MORE" />
+      <BrutalBtn text="LEARN MORE" />
       <BrutalPill text="hello" />
 
       <h1 className="text-2xl font-bold">

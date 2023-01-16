@@ -1,6 +1,5 @@
 type IBrutalBtnProps = {
   text: string;
-  color: string;
   small?: boolean;
   url?: string;
 };
@@ -18,7 +17,7 @@ const BrutalBtn = (props: IBrutalBtnProps) => {
           `relative before:absolute before:top-1.5 before:left-1.5 md:before:top-2 md:before:left-2  ` +
           `md:before:h-14 before:h-6 ` +
           `w-28 before:w-28 md:w-44 md:before:w-44 ` +
-          `before:bg-neon-${props.color} `
+          `before:bg-neon-red `
         }
       >
         <a
@@ -43,7 +42,7 @@ const BrutalBtnSmall = (props: IBrutalBtnProps) => {
           `relative before:absolute before:top-1.5 before:left-1.5  ` +
           ` before:h-6 ` +
           `w-28 before:w-28  ` +
-          `before:bg-neon-${props.color} `
+          `before:bg-neon-red `
         }
       >
         <a
