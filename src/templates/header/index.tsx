@@ -10,7 +10,7 @@ import { BrutalBtnSmall } from '@/layouts/Common/Brutal';
 
 const Header = () => (
   <header>
-    <nav className="rounded  bg-neon-gray px-2 py-2.5 dark:bg-gray-900 sm:px-4">
+    <nav className="rounded  bg-neon-gray  py-2.5 px-4 dark:bg-gray-900">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <a href="https://flowbite.com/" className="flex items-center">
           <span className="self-center whitespace-nowrap font-ubuntu-mono text-xl font-semibold dark:text-white">
