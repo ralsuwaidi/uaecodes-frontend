@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="bg-black p-4 font-ubuntu-mono sm:p-6">
+    <footer className="bg-black px-4 pb-4 pt-12 font-ubuntu-mono sm:p-6 sm:pt-24">
       <div className="container mx-auto md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
               src="https://aicdn.sgp1.cdn.digitaloceanspaces.com/aiocdn/logo/uae-codes/bilingual/UAE-Codes-White-Logo.png"
-              className="mr-3 h-12"
+              className="mr-3 h-12 md:h-16"
               alt="FlowBite Logo"
             />
           </a>

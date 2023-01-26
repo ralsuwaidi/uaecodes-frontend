@@ -49,8 +49,8 @@ const Locations = () => {
       </div>
       <div className=" bg-neon-green">
         <div className="container mx-auto px-4">
-          <div className="mx-auto p-5">
-            <div className="grid grid-cols-2  gap-2 md:grid-cols-4 md:gap-4">
+          <div className="mx-auto py-5 md:py-12">
+            <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4">
               <LocationEmirates
                 emirate={ABU_DHABI.name}
                 locations={ABU_DHABI.locations}
