@@ -1,3 +1,10 @@
+# 1.0.0 (2023-01-26)
+
+
+### Features
+
+* add about section ([bbb94de](https://github.com/ralsuwaidi/uaecodes-frontend/commit/bbb94de0e24ae5f731d65c308514c816f8969670))
+
 # [3.6.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.4...v3.6.0) (2022-12-03)
 
 
