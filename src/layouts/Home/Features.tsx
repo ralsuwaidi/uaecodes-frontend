@@ -2,7 +2,7 @@ import FeaturesItem from './FeaturesItem';
 
 const Features = () => {
   return (
-    <div className=" container mx-auto font-ubuntu-mono">
+    <div className=" container mx-auto max-w-5xl font-ubuntu-mono">
       <div className=" mx-5">
         <div className=" justify-center gap-2 md:grid md:grid-cols-2">
           <FeaturesItem

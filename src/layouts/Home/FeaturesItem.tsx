@@ -8,7 +8,7 @@ type IFeatureItemProps = {
 
 const FeaturesItem = (props: IFeatureItemProps) => {
   return (
-    <div className=" mx-0 mb-5 md:mx-8 md:mb-8">
+    <div className=" mx-0 mb-5  md:mx-8 md:mb-8">
       <img className="h-64 w-full object-cover" src={props.img} alt="" />
       <p className="mt-5 text-lg font-bold uppercase md:text-2xl">
         {props.title}
