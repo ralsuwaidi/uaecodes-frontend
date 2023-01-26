@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ralsuwaidi/uaecodes-frontend/compare/v1.0.0...v1.1.0) (2023-01-26)
+
+
+### Features
+
+* features section UI ([b5c40f9](https://github.com/ralsuwaidi/uaecodes-frontend/commit/b5c40f912f39a2e57bfe7fc6813bd3198d33cfeb))
+
 # 1.0.0 (2023-01-26)
 
 
