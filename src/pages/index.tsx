@@ -1,6 +1,7 @@
 import { About } from '@/layouts/Home/About';
 import { Features } from '@/layouts/Home/Features';
 import { Hero } from '@/layouts/Home/Hero';
+import { Timeline } from '@/layouts/Home/Timeline';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
@@ -17,6 +18,7 @@ const Index = () => {
       <Hero />
       <About />
       <Features />
+      <Timeline />
     </Main>
   );
 };
