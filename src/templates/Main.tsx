@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 
+import { Footer } from './footer';
 import { Header } from './header';
 
 type IMainProps = {
@@ -14,6 +15,8 @@ const Main = (props: IMainProps) => (
     <Header />
 
     {props.children}
+
+    <Footer />
   </div>
 );
 
