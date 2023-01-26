@@ -1,3 +1,4 @@
+import { About } from '@/layouts/Home/About';
 import { Hero } from '@/layouts/Home/Hero';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -13,6 +14,7 @@ const Index = () => {
       }
     >
       <Hero />
+      <About />
     </Main>
   );
 };
