@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Footer = () => {
   return (
     <footer className="bg-black px-4 pb-4 pt-12 font-ubuntu-mono sm:p-6 sm:pt-24">
@@ -18,9 +20,9 @@ const Footer = () => {
             </h2>
             <ul className=" text-gray-400">
               <li className="mb-4">
-                <a href="https://flowbite.com/" className="hover:underline">
+                <Link href="/about/" className="hover:underline">
                   About
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
                 <a href="https://tailwindcss.com/" className="hover:underline">

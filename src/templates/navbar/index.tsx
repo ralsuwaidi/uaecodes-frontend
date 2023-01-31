@@ -6,9 +6,11 @@
 //   { url: '/competition/', text: 'Competition' },
 // ];
 
+import Link from 'next/link';
+
 import { BrutalBtnSmall } from '@/layouts/Common/Brutal';
 
-const Header = () => (
+const Navbar = () => (
   <header>
     <nav className="rounded  bg-neon-gray  py-2.5 px-4 dark:bg-gray-900">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
@@ -50,21 +52,20 @@ const Header = () => (
         >
           <ul className="mt-4 flex flex-col rounded-lg border  bg-neon-gray p-4 dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-neon-gray md:text-sm md:font-medium md:dark:bg-gray-900">
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-neon-purple md:dark:hover:bg-transparent md:dark:hover:text-white"
-                aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/about/"
                 className="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-neon-purple md:dark:hover:bg-transparent md:dark:hover:text-white"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -89,4 +90,4 @@ const Header = () => (
   </header>
 );
 
-export { Header };
+export { Navbar };

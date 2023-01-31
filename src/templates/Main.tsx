@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
 import { Footer } from './footer';
-import { Header } from './header';
+import { Navbar } from './navbar';
 
 type IMainProps = {
   meta: ReactNode;
@@ -12,7 +12,7 @@ const Main = (props: IMainProps) => (
   <div className=" font-ubuntu antialiased">
     {props.meta}
 
-    <Header />
+    <Navbar />
 
     {props.children}
 
