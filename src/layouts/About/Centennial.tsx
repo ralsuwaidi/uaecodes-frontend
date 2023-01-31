@@ -2,7 +2,7 @@ const Centennial = () => {
   return (
     <>
       <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-12">
+        <div className="mx-auto max-w-screen-xl py-16 px-4 text-center lg:py-32 lg:px-12">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
             UAE Centennial Plan
           </h1>
